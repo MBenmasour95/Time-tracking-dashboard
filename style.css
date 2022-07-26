@@ -205,7 +205,7 @@ p {
   justify-content: space-between;
 }
 
-.row .col-2 .activity-wrapper .card .card-head h4 {
+.row .col-2 .activity-wrapper .card .card-head span {
   font-size: var(--fs-2);
   font-weight: var(--fw-500);
 }
@@ -250,6 +250,12 @@ p {
 }
 
 /* === Responsive Layout === */
+@media (max-width: 1280px) {
+  body {
+    padding: 5rem 2rem 0;
+  }
+}
+
 @media (max-width: 1200px) {
   .row {
     width: 90%;
@@ -257,10 +263,6 @@ p {
 }
 
 @media (max-width: 1050px) {
-  body {
-    padding: 5rem 2rem 0;
-  }
-
   .row {
     width: 100%;
   }

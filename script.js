@@ -43,7 +43,7 @@ function displayActivities(data) {
       }">
       <div class="card">
         <div class="card-head">
-          <h4>${item.title}</h4>
+          <span>${item.title}</span>
           <button>
             <img src="./images/icon-ellipsis.svg" alt="ellipsis" />
           </button>
