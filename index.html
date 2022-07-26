@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- === Favicon === -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- === Title === -->
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- === CSS === -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- === Main === -->
+    <main>
+      <div class="row">
+        <div class="col-1">
+          <div class="profile-wrapper">
+            <div class="avatar-box">
+              <img src="./images/image-jeremy.png" alt="avatar" />
+            </div>
+            <div class="info">
+              <p>Report for</p>
+              <h2>Jeremy Robson</h2>
+            </div>
+          </div>
+
+          <ul id="periods" class="periods">
+            <li class="period" data-period="daily">Daily</li>
+            <li class="period active" data-period="weekly">Weekly</li>
+            <li class="period" data-period="monthly">Monthly</li>
+          </ul>
+        </div>
+        <div id="activities-wrapper" class="col-2"></div>
+      </div>
+    </main>
+
+    <!-- === Footer === -->
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.frontendmentor.io/profile/MBenmasour95"
+        target="_blank"
+        >Mehdi95</a
+      >.
+    </footer>
+
+    <!-- === JS ===-->
+    <script src="./script.js"></script>
+  </body>
+</html>
